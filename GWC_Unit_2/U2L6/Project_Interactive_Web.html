@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>One Piece Interactive</title>
+    <!-- get CSS file to format the text of the web -->
+    <link rel="stylesheet" href="style.css"> <!--Ig you want to use a file that is stored in another folder use "../mystyle.css" -->
+
+    <!-- get Google Fonts into out metadata -->
+    <link href="https://fonts.googleapis.com/css?family=Bahianita|Barriecito|DM+Serif+Text|Mountains+of+Christmas|Russo+One&display=swap" rel="stylesheet">
+
+    <!-- link my JS file -->
+    <script src="index.js"> </script>
+
+  </head>
+  <body>
+    <h1>ONE PIECE</h1>
+
+    <!-- group buttons -->
+
+    <div class="split left">
+      <div class="centered">
+        <div class="btn-group">
+          <button
+          class="button"
+          onclick="getLuffy()">
+          RUN
+          </button>
+
+          <button
+          class="button"
+          onclick="getLuffy_attack()">
+          ATTACK
+          </button>
+
+          <button
+          class="button"
+          onclick="getLuffy_eat()">
+          EAT
+          </button>
+
+          <button
+          class="button"
+          onclick="getLuffy_roll()">
+          ROLL
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="split right">
+      <!-- this is the image to be substituted -->
+      <img id="luffy"
+      src="luffy_run.gif"
+      style="height:150px"
+      class="center">
+    </div>
+
+
+
+
+  </body>
+</html>)

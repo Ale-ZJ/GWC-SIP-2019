@@ -1,0 +1,48 @@
+
+body {
+  background-image: url(cloud.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color : yellow;
+  text-shadow: 2px 2px black;
+  font-family:"Arial Black", Gadget, sans-serif ;
+}
+
+h2 {
+  color: rgb(255,218,185);
+  font-family: "Arial Black", Gadget, sans-serif
+}
+
+#item {
+  color : green;
+}
+
+.list{
+  color: black;
+}
+
+p{
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 20px
+}
+
+p.intro{
+  outline-color: rgba(153, 207, 255, 0.2);
+  outline-style:double;
+  background-color:rgba(153, 207, 255, 0.2);
+  text-align: center;
+}
+
+img.series { width: 500px}
+
+.color_txt {
+  color: rgb(127,255,212)
+
+}
+
+.color{
+  color: rgb(135,206,235)
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- include OpenLayers stylesheet -->
+	<link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+
+	<!-- include OpenLayers script -->
+	<script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+	<!-- link MY JavaScrit file  -->
+	<script src="mymaps.js" type="text/javascript"></script>
+
+	<title>Weather Map</title>
+</head>
+<body>
+	<!-- add our panning button -->
+	<p>
+		<!-- receive input from the user -->
+		<textarea id="countryName" rows="1" cols="20" placeholder="Input a country"></textarea>
+		<button type="submit" onclick="makeCountryRequest">Pan to location</button>
+
+		<button onclick="panHome()">Pan back to home</button>
+	</p>
+
+	<p>
+		<button onclick="goPanama()">Go to Panama</button>
+	</p>
+
+	<!-- include a map divider -->
+	<div id="map" class="map">
+
+	</div>
+	<footer>
+		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+		<!-- attribute the API  -->
+		<p>This map uses the <a href="https://openlayers.org/en/latest/apidoc/">OpenLayers API</a></p>
+	</footer>
+</body>
+</html>
